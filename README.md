@@ -51,9 +51,9 @@ The **Bookmarker** feature allows users to easily store, manage, and search for 
 ---
 
 ### Technologies
--Html
--Bootstrap 
--JavaScript 
+- Html
+- Bootstrap 
+- JavaScript 
 
 ---
 This **Bookmarker Application** provides a simple yet effective way to manage websites, allowing users to store, modify, and search through their favorite bookmarks with ease. The use of `localStorage` ensures that bookmarks persist across page reloads.
