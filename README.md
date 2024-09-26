@@ -26,7 +26,9 @@ The **Bookmarker** feature allows users to easily store, manage, and search for 
 
 6. **Search for a Website**
    - A **Search** input field is provided, allowing users to search for websites by name. As the user types, the displayed table of bookmarks is filtered to only show matches based on the input.
-   - This makes it easier to find specific bookmarks, especially when dealing with a large number of saved websites.
+   - This makes it easier to find specific bookmarks, especially when dealing with a large number of saved websites.44
+
+  
 
 ### Example Usage:
 
@@ -48,4 +50,10 @@ The **Bookmarker** feature allows users to easily store, manage, and search for 
 
 ---
 
+##Technologies
+-Html
+-Bootstrap 
+-JavaScript 
+
+---
 This **Bookmarker Application** provides a simple yet effective way to manage websites, allowing users to store, modify, and search through their favorite bookmarks with ease. The use of `localStorage` ensures that bookmarks persist across page reloads.
