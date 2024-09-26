@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmarker</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/all.min6.5.1.css" />
+  </head>
+  <body>
+    <div class="container pt-2">
+      <h1 class="pb-3 text-muted">Bookmarker</h1>
+      <hr />
+
+      <h2>Bookmark your favorite sites</h2>
+
+      <div class="form-group mx-5">
+        <label class="text-center font-weight-bold" for="siteName"
+          >Site Name</label
+        >
+        <input
+          type="text"
+          id="siteName"
+          class="form-control"
+          placeholder="Bookmark Name"
+        />
+      </div>
+
+      <div class="form-group mx-5">
+        <label class="text-center font-weight-bold" for="siteUrl"
+          >Site URL</label
+        >
+        <input
+          type="text"
+          id="siteUrl"
+          class="form-control inp"
+          placeholder="Website URL"
+        />
+      </div>
+      <br />
+
+      <button id="addBtn" class="btn btn-primary" onclick="addSite();">
+        Submit
+      </button>
+    </div>
+
+    <div class="w-75 mx-auto my-3">
+      <input
+        type="text"
+        id="siteSearch"
+        placeholder="Search"
+        class="my-3 form-control"
+        oninput="searchItems(this.value)"
+      />
+
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Site Name</th>
+            <th>Site URL</th>
+            <th>Visit</th>
+            <th>Update</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <script src="JS/main.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+  </body>
+</html>
