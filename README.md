@@ -1,6 +1,6 @@
 ## [Bookmarker](https://hlaaessam.github.io/Bookmark/)
 
-The **Bookmarker** feature allows users to easily store, manage, and search for their favorite websites. It offers a user-friendly interface for adding website details, saving them locally, and displaying them in a table. The bookmarks persist across page reloads, thanks to the use of `localStorage`. Below are the key functionalities provided:
+It offers a user-friendly interface for adding website details, saving them locally, and displaying them in a table. The bookmarks persist across page reloads, thanks to the use of `localStorage`. Below are the key functionalities provided:
 
 ### Features
 
